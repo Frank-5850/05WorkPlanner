@@ -96,11 +96,6 @@ function hour (times) {
 
 hour()
 
-    // if (retreiveData === null)window.localStorage.setItem(time, "")
-    // if (retreiveData.length > 0) $("#09").attr("value", window.localStorage.getItem(time))
-
-
-// console.log(toDo)
 $("form").on("submit", function (e) {
     e.preventDefault()
 
@@ -109,4 +104,13 @@ $("form").on("submit", function (e) {
 
     window.localStorage.setItem(time, text)
   })
-})
+});
+$("#9").val(window.localStorage.getItem(9))
+$("#10").val(window.localStorage.getItem(10))
+$("#11").val(window.localStorage.getItem(11))
+$("#12").val(window.localStorage.getItem(12))
+$("#13").val(window.localStorage.getItem(13))
+$("#14").val(window.localStorage.getItem(14))
+$("#15").val(window.localStorage.getItem(15))
+$("#16").val(window.localStorage.getItem(16))
+$("#17").val(window.localStorage.getItem(17))
