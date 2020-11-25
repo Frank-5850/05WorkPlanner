@@ -96,9 +96,6 @@ function hour (times) {
 
 hour()
 
-    const retreiveData = JSON.parse(window.localStorage.getItem("key", "value"))
-    $("#9").text(JSON.parse(window.localStorage.getItem("key", "value")))
-
     // if (retreiveData === null)window.localStorage.setItem(time, "")
     // if (retreiveData.length > 0) $("#09").attr("value", window.localStorage.getItem(time))
 
