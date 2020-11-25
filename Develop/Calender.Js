@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
 // Variable for current date
-const now = moment().format('MMMM Do YYYY');
+const now = moment().format('MMMM Do YYYY, hA');
 
 // Attached the variable to the ID to display the current date
 $("#currentDay").text(now);
 
 // Created an array of integers to match with hours
 const times = [9, 10, 11, 12, 13, 14, 15, 16, 17]
-const currentHour = 9
+const currentHour = moment().hour()
 
 
 function hour (times) {
